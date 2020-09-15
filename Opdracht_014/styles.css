@@ -1,0 +1,55 @@
+a.link1:hover{
+    color:lightblue;
+    font-weight:bold;
+}
+
+a.link2:active{
+    color:red;
+    font-style: italic;
+}
+
+a.link3:visited{
+    color:yellow;
+}
+
+form input:focus{
+    color:green;
+    font-size: 20px;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:0;
+    overflow:hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    display:block;
+    padding:20px;
+    background-color:darkblue;
+    text-align:center;
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color:blue;
+}
+
+nav ul li a:first-child{
+    margin-left: 0;
+}
+
+.currentpage:active{
+    background-color:gray;
+}
+
+.zoekbalk:focus{
+    border: 4px solid lightblue;
+}
+
+
+
