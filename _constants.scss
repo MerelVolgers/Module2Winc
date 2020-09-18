@@ -1,0 +1,10 @@
+$standardPadding: 20px;
+$standardText: #090b08;
+$backgroundWhite:#ecffe9;
+$BackgroundLight:#c0eea9;
+$BackgroundDark:#97d279;
+
+@mixin Blocks ($background, $padding) {
+    background: $background;
+    padding: $padding;
+}
